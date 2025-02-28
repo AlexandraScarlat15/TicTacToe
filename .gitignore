@@ -11,16 +11,16 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled Dynamic Libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
+# Fortran Module Files
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compiled Static Libraries
 *.lai
 *.la
 *.a
@@ -30,3 +30,36 @@
 *.exe
 *.out
 *.app
+
+# Ignore Visual Studio Cache & Generated Files
+.vs/
+*.suo
+*.VC.db
+*.VC.opendb
+*.pdb
+*.ipch
+*.tlog
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.user
+*.cache
+
+# Ignore CMake & Build Files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Ignore Qt Creator Files (if using Qt)
+*.pro.user
+*.qmake.stash
+
+# Ignore Debug and Build Folders
+Debug/
+Release/
+x64/
+x86/
+bin/
+build/
